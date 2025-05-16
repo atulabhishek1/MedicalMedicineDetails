@@ -2,7 +2,7 @@
 
 import streamlit as st
 import os
-from setup import load_documents, split_text, create_embeddings, create_vectorstore, create_response_chain, initialize_llm
+from src.helper import load_documents, split_text, create_embeddings, create_vectorstore, create_response_chain, initialize_llm
 
 # Set page configuration
 st.set_page_config(page_title="Medical Assistant", layout="wide")
