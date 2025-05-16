@@ -47,5 +47,4 @@ def initialize_llm():
         model="gemma2-9b-it",
         temperature=0.7,
         max_tokens=512,
-        api_key="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"
     )
