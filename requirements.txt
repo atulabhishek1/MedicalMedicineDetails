@@ -16,4 +16,3 @@ dotenv
 groq
 transformers 
 accelerate
-e . # for local development
