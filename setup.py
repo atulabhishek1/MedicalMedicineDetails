@@ -43,6 +43,7 @@ def create_response_chain(retriever, llm):
     return create_retrieval_chain(retriever, document_chain)
 
 def initialize_llm():
+    GROQ_API_KEY = os.getenv("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")
     return ChatGroq(
         model="gemma2-9b-it",
         temperature=0.7,
