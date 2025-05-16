@@ -9,6 +9,11 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 
+from dotenv import load_dotenv
+
+load_dotenv()
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
 def load_documents(file_paths):
     documents = []
     for path in file_paths:
