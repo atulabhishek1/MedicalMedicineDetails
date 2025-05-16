@@ -1,0 +1,16 @@
+ipykernel
+genai
+google-generativeai
+python-dotenv
+langchain
+pypdf
+ipykernel
+langchain-community
+langchain-huggingface
+langchain-groq
+FAISS-cpu
+streamlit
+langchain-core
+langchain-groq
+dotenv
+groq
